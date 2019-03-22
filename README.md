@@ -1,1 +1,3 @@
-# LemonGrass - a Dublin's Cocktail bar.
+# LemonGrass.
+
+## Squeezed lemon cocktail bar.
