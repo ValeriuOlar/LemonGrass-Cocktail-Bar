@@ -74,6 +74,7 @@ a{
 }
 .between-sec{
     padding: 20rem 0;
+    text-align: center;
 }
 .between-sec-color{
     color: var(--main-white);
@@ -335,10 +336,47 @@ footer h4{
 footer p{
     color: #fff;
 }
-
+/*Making the website more friendly*/
 @media screen and (min-width: 769px){
     header,
     .between-sec{
         background-attachment: fixed;
     }
+    .menu{
+        display: none;
+    }
+    .nav{
+        display: flex;
+        padding: 2rem 10rem 0;
+        justify-content: space-between;
+    }
+    .nav .overlay{
+        position: initial;
+        background: none;
+        opacity: initial;
+        transform: initial;
+    }
+    .nav .overlay ul{
+        flex-direction: row;
+        list-style: none;
+        margin-top: 2px;
+    }
+    .nav .overlay ul li a{
+        font-size: 1.5rem;
+        letter-spacing: 1px;
+        margin-right: -1px;
+        padding: 0.2rem;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .center{
+        flex: 1px;
+    }
+    .add-flex{
+        flex: 1;
+    }
+
 }
