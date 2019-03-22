@@ -114,6 +114,8 @@ a{
     bottom: 0;
     z-index: 1;
     transition: all 650ms;
+    transform: scale(0);
+    opacity: 0;
 }
 .overlay.menu-open{
     transform: scale(1);
@@ -137,8 +139,7 @@ a{
 .nav .overlay ul li a:hover,
 .nav .overlay ul li a .active:hover{
     color: var(--main-font-color);
-    border-bottom-color: var(--main-font-color);
-
+   /* border-bottom-color: var(--main-font-color);*/
 }
 /* Header - Main Text*/
 .main-text{
