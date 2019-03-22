@@ -410,4 +410,24 @@ footer p{
         opacity: 0;
         animation: .5s fade 1s forwards;
     }
+    @keyframes fadeIn {
+        0%{
+            transform: scale(2);
+            opacity: 0;
+        }
+        100%{
+            transform:  scale(1);
+            opacity: 1;
+        }
+    }
+    @keyframes fadeIn {
+        0%{
+            transform: scale(2);
+            opacity: 0;
+        }
+        100%{
+            transform:  scale(1);
+            opacity: 1;
+        }
+    }
 }
