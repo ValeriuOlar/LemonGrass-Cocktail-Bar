@@ -31,12 +31,25 @@ a{
     color: var(--main-white);
 
 }
-/* Reusibile Classes*/
+/* Reusable Classes*/
 
 /* Header */
  header{
      width: 100%;
      height: 100vh;
      background: linear-gradient(to bottom, rgba(0,0,0,.9), transparent);
-                url(images/hero.jpeg') bottom no-repeat;
+                url('images/hero.jpeg') bottom no-repeat;
+     background-size: cover;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     position: relative;
  }
+ /* Header - nav toggle*/
+
+/* Header - Nav*/
+
+/* Header - Main Text*/
+.main-text{
+
+}
