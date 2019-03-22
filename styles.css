@@ -246,6 +246,8 @@ a{
     background-size: cover;
 }
 
+
+
 /* Fresh Ingredients - section */
 .fresh-ingredients{
     width: 100%;
@@ -254,6 +256,14 @@ a{
     background-size: cover;
 }
 /* Our Menu - section */
+.image-group{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}.image-group img{
+    width: 100%;
+    height: 30rem;
+ }
 /* Citrus Goodness - Section */
 .citrus-goodness{
     width: 100%;
@@ -261,4 +271,29 @@ a{
     rgba(0,0,0,0.5)), url("images/between2.jpeg") center no-repeat;
     background-size: cover;
 }
+/* Contact us - Selection*/
+.contact-us form{
+    width: 100%;
+    min-width: 9rem;
+    margin-top: 5rem;
+}
+.input,
+.text-area{
+    width: 100%;
+    max-width: 100%;
+    margin: 5px 0;
+    padding: 5px 1rem;
+    border-radius: 3px;
+    font-size: 1.6rem;
+    border: 1px solid var(--main-font-color);
+    color: #878787;
+}
+.input::placeholder,
+.text-area::placeholder{
+    color: #878787;
+}
+.text-area{
+    height: 10rem;
+}
+.btn-s
 /* Footer*/
