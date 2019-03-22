@@ -32,7 +32,12 @@ a{
 
 }
 /* Reusable Classes*/
-
+.btn{
+    display: inline-block;
+    transition: all 650ms;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
 
 /* Header */
  header{
@@ -47,6 +52,54 @@ a{
      position: relative;
  }
  /* Header - nav toggle*/
+.menu{
+    padding: 2rem 2.5rem;
+    position: fixed;
+    top: 3rem;
+    right: 3rem;
+    background-color: rgba(0,0,0,.5);
+    z-index: 999;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.menu .bar,
+.menu .bar::before,
+.menu .bar::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 4rem;
+    background-color:  var(--main-white);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    transition: 650ms;
+}
+/* Menu bar selecting the lines up/ to create a hamburger menu look */
+.menu .bar:before{
+    top: -2rem;
+}
+.menu .bar::after{
+    top: 2rem;
+}
+/* for the class that will be allied with Jquery and will be on the main bar */
+.active .bar{
+    background-color: transparent;
+}
+.active .bar::before{
+    transform: rotate(45deg);
+}
+.active .bar::after{
+    transform: rotate(-45deg);
+}
+.active .bar::before,
+.active .bar::after{
+    top: 0;
+}
+
+
 
 /* Header - Nav*/
 
@@ -103,4 +156,12 @@ a{
     transform: translateY(-3px);
     box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
 }
-/* Section - Our story */
+.main-btn:active{
+    transform: translateY(0);
+    box-shadow: none;
+}
+
+/* Our story - Section */
+/* Fresh Ingredients - section */
+/* Our Menu - section */
+/* Citrus Goodness - Section */
