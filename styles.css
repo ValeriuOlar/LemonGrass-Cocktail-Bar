@@ -33,6 +33,7 @@ a{
 }
 /* Reusable Classes*/
 
+
 /* Header */
  header{
      width: 100%;
@@ -71,3 +72,35 @@ a{
     line-height: 1;
     position: relative;
 }
+/* Drawing the lines outside the line setting the content on a empty string*/
+.main-text h2::before,
+.main-text h2::after{
+    content: "";
+    width: 5rem;
+    height: 3px;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    background-color: var(--main-white);
+    border-radius: 8px;
+}
+.main-text h2::before{
+    left: -6rem;
+}
+.main-text h2::after{
+    right: -6rem;
+}
+.main-btn{
+    font-size: 1.5rem;
+    border: 2px solid var(--main-font-color);
+    padding: 2rem 2.5rem;
+    letter-spacing: 3px;
+    margin-right: -3px;
+    position: relative;
+    margin-top: 3rem;
+}
+.main-btn:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+}
+/* Section - Our story */
