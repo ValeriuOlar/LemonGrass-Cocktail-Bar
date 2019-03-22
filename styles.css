@@ -98,10 +98,13 @@ a{
 .active .bar::after{
     top: 0;
 }
-
-
-
-/* Header - Nav*/
+/* Header - Nav - form 22/03/2019 */
+.nav{
+    width: 100%;
+    height: 6rem;
+    line-height: 6rem;
+    position: relative;
+}
 
 /* Header - Main Text*/
 .main-text{
