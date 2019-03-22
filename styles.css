@@ -295,5 +295,32 @@ a{
 .text-area{
     height: 10rem;
 }
-.btn-s
+.btn-submit{
+    background-color: var(--main-font-color);
+    color: var(--main-white);
+    width: 100%;
+    padding: 1rem 0;
+    cursor: pointer;
+}
+.btn-submit:hover{
+    background-color: #e1aa2f;
+}
 /* Footer*/
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    text-align: center;
+    background-color:  var(--main-footer-bg-color);
+    padding: 5rem 0;
+    font-size: 1.8rem;
+    color: var(--main-white);
+}
+footer h4{
+    font-size: 3rem;
+    text-transform:  uppercase;
+    margin-bottom: 1.5rem;
+    color: var(--main-font-color);
+    font-weight: 100;
+    font-family: "Babas Neus", sans-serif;
+}
