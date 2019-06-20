@@ -26,6 +26,8 @@ Testing has been done using mobile and desktop devices from running platform [C9
 Web Hosted page has been achieved using GitHub pages, deployed directly from master branch, in order to successful achieve web deployment on GitHub page by naming the page’’index.html’’ .
 One of the advantages using GitHub pages is as I run upcoming updates the website will be updated live.
 ## Credits
+Valeriu Olariu 
+ovaleriu@gmail.com
 ## Content
 All content in the site were written by me Valeriu Olariu.
 ## Media
