@@ -27,7 +27,7 @@ Web Hosted page has been achieved using GitHub pages, deployed directly from mas
 One of the advantages using GitHub pages is as I run upcoming updates the website will be updated live.
 ## Credits
 Valeriu Olariu 
-ovaleriu@gmail.com
+ovaleriu7@gmail.com
 ## Content
 All content in the site were written by me Valeriu Olariu.
 ## Media
