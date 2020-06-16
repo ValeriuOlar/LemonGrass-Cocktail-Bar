@@ -29,7 +29,7 @@ One of the advantages using GitHub pages is as I run upcoming updates the websit
 Valeriu Olariu 
 ovaleriu7@gmail.com
 ## Content
-All content in the site were written by me Valeriu Olariu.
+All content in the site were written by Valeriu Olariu.
 ## Media
 All photos were taken from [Pexels](https://www.pexels.com/) Some filters were applied to some of the images.
 ## Acknowledgement
