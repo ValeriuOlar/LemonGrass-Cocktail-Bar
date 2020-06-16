@@ -3,7 +3,7 @@ First mile stone Project: User-Centric Frontend Development - Code Institute
 This project is first of the five projects I will build over the upcoming weeks at Code Institute bootcamp.
 Lemon Grass cocktail bar with specific lemon-based cocktails, main page of the website is offering a deep view on the lemon-based cocktails available on the list in the bar.
 ## Demo
-A live demo can be found [here](https://valeriuolar.github.io/LemonGrass-Cocktail-Bar/)
+[A live demo can be found here](https://valeriuolar.github.io/LemonGrass-Cocktail-Bar/)
 ## UX
 While building the prototype website my goal is to make it as easy as possible for cocktail enthusiasts find inform about the variety of cocktails and the great location of the bar
 ## Technologies
